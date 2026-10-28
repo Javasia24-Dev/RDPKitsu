@@ -1,35 +1,35 @@
 {
   "active": true,
-  "hostname": "rdpjavasia-8",
+  "hostname": "rdpjavasia-9",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
   "os_style": "Native Windows",
   "hardware": {
-    "ram_gb": 16.0,
-    "disk_free_gb": 26.5,
-    "cpu_threads": 4
+    "cpu_threads": 4,
+    "disk_free_gb": 26.3,
+    "ram_gb": 16.0
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-28T13:36:43Z",
-  "expires_at": "2026-10-28T19:18:43Z",
+  "started_at": "2026-10-28T19:19:12Z",
+  "expires_at": "2026-10-29T01:01:12Z",
   "duration_menit": 342,
-  "run_id": "40697870750",
+  "run_id": "40753075286",
   "run_attempt": "1",
-  "run_number": "8",
-  "run_url": "https://github.com/Javasia24-Dev/RDPKitsu/actions/runs/40697870750",
+  "run_number": "9",
+  "run_url": "https://github.com/Javasia24-Dev/RDPKitsu/actions/runs/40753075286",
   "mode": "bersih+win10",
   "persist": {
-    "profile": "C:\\Users\\xyadmin",
-    "files": 9,
+    "restored": true,
     "source": "xyrdp-state.7z.enc",
-    "restored": true
+    "profile": "C:\\Users\\xyadmin",
+    "files": 9
   },
   "storage": {
-    "boost": "skip",
-    "note": "dilewati sesuai config"
+    "note": "dilewati sesuai config",
+    "boost": "skip"
   },
   "win10": {
     "look": "ok",
@@ -40,63 +40,63 @@
     "note": "Tampilan Windows 10 (UI Windows Server 2022 = kernel/UI Windows 10 21H2)"
   },
   "media": {
-    "microphone": "rdp_capture_enabled",
-    "audio_output": "rdp_playback_enabled",
     "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
-    "wallpaper": "xyverse_configured_for_user_logon"
+    "wallpaper": "xyverse_configured_for_user_logon",
+    "microphone": "rdp_capture_enabled",
+    "audio_output": "rdp_playback_enabled"
   },
   "grafis": {
-    "mesa": "26.2.4",
+    "mode": "software",
+    "opengl": "4.6 (Mesa llvmpipe system-wide x64/x86 + OpenGL ES 3.2)",
+    "path": "C:\\XyRDP\\grafis\\mesa-x64",
     "adapters": "Microsoft Hyper-V Video",
     "vulkan": "lavapipe 1.3 (CPU)",
-    "opengl": "4.6 (Mesa llvmpipe system-wide x64/x86 + OpenGL ES 3.2)",
-    "mode": "software",
-    "path": "C:\\XyRDP\\grafis\\mesa-x64"
+    "mesa": "26.2.4"
   },
   "samp": {
-    "dep_optin": true,
-    "vc2013_x64": true,
-    "fullscreen": true,
     "directplay": true,
-    "dgvoodoo_d3d9": true,
-    "samp_client": true,
-    "silentpatch": false,
-    "webview2": true,
-    "directx9": true,
+    "vc2015_x64": true,
     "playable": true,
-    "vc2015_x86": true,
+    "dep_optin": true,
     "status": "runtimes-2026-ready",
+    "fullscreen": true,
+    "directx9": true,
+    "dgvoodoo_d3d9": true,
     "vc2013_x86": true,
+    "webview2": true,
+    "vc2013_x64": true,
     "game_present": true,
-    "vc2015_x64": true
+    "silentpatch": false,
+    "vc2015_x86": true,
+    "samp_client": true
   },
   "games": {
-    "memu": {
-      "launcher": "C:\\Games\\MEmu\\Launch-MEmu.ps1",
-      "status": "ready"
+    "roblox": {
+      "launcher": "C:\\Games\\Roblox\\Launch-Roblox-AntiVM.ps1",
+      "status": "ready-antivm"
     },
     "minecraft_java": {
-      "status": "ready",
       "prismlauncher": true,
+      "tlauncher_jar": true,
       "opengl46": true,
-      "official_exe": true,
-      "tlauncher_jar": true
+      "status": "ready",
+      "official_exe": true
+    },
+    "fivem": {
+      "sound": true,
+      "status": true
     },
     "ets2": {
       "launcher": "C:\\Games\\ETS2\\Launch-ETS2-Free.ps1",
       "status": "ready"
     },
+    "memu": {
+      "launcher": "C:\\Games\\MEmu\\Launch-MEmu.ps1",
+      "status": "ready"
+    },
     "blender": {
       "launcher": "C:\\Games\\Blender\\Launch-Blender.ps1",
       "status": "ready"
-    },
-    "roblox": {
-      "launcher": "C:\\Games\\Roblox\\Launch-Roblox-AntiVM.ps1",
-      "status": "ready-antivm"
-    },
-    "fivem": {
-      "sound": true,
-      "status": true
     }
   },
   "extras": {
@@ -108,9 +108,9 @@
     "admin": true
   },
   "tools_hub": {
+    "installed": true,
     "auto_start": true,
-    "exe": "C:\\XyRDP\\tools\\XyDeskDashboard.exe",
-    "installed": true
+    "exe": "C:\\XyRDP\\tools\\XyDeskDashboard.exe"
   },
   "xydesk": {
     "host": "ok",
@@ -131,20 +131,20 @@
   },
   "akses": {
     "tailscale": {
-      "ip": "100.90.181.5",
-      "hostname": "RdpJavasia",
+      "ip": "100.87.120.43",
       "status": "ok",
+      "magicdns": "rdpjavasia.tail80bca7.ts.net.",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "magicdns": "rdpjavasia.tail80bca7.ts.net."
+      "hostname": "RdpJavasia"
     },
+    "mode": "tailscale",
     "tunnel": {
-      "selftest": "ok",
       "port": 3389,
       "status": "ok",
+      "host": "100.87.120.43",
+      "selftest": "ok",
       "outside": "tailscale",
-      "host": "100.90.181.5",
-      "address": "100.90.181.5:3389"
-    },
-    "mode": "tailscale"
+      "address": "100.87.120.43:3389"
+    }
   }
 }
